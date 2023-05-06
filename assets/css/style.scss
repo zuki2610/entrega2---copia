@@ -18,9 +18,9 @@ $background-color_5: #CEABB1;
 $background-color_6: #f7edfc61;
 $background-color_7: #e1b2ac39;
 $background-color_8: #f2d9f225;
-$background-color_9: #9c8387;
+$background-color_9: #b3747e;
 $background-color_10: #fff;
-$background-color_11: #f7edfc87;
+$background-color_11: #727272;
 $background-color_12: #d3948c24;
 $background-color_13: #e1b2ac33;
 
@@ -289,16 +289,17 @@ header {
 	background-color: $background-color_7;
 	color: $color_7;
 	position: absolute;
-	z-index: -1;
 	padding: 2vh 2vw 2vh;
 	padding-left: 2vw;
 	margin-left: 4vw;
 	display: flex;
 	align-items: center;
 	width: 25vw;
+	z-index: -1;
 }
 .order {
 	display: flex;
+	z-index: 1;
 }
 .secondary {
 	color: $color_8;
@@ -508,6 +509,7 @@ input {
 	}
 	.order {
 		display: flex;
+		z-index: 1;
 	}
 	.secondary {
 		color: $color_8;

@@ -285,17 +285,18 @@ header {
   background-color: rgba(225, 178, 172, 0.2235294118);
   color: rgb(14, 14, 14);
   position: absolute;
-  z-index: -1;
   padding: 2vh 2vw 2vh;
   padding-left: 2vw;
   margin-left: 4vw;
   display: flex;
   align-items: center;
   width: 25vw;
+  z-index: -1;
 }
 
 .order {
   display: flex;
+  z-index: 1;
 }
 
 .secondary {
@@ -401,7 +402,7 @@ header {
 }
 
 .footerdesk {
-  background-color: #9c8387;
+  background-color: #b3747e;
   display: flex;
   flex-direction: column;
 }
@@ -493,7 +494,7 @@ input {
     padding-top: 4vh;
   }
   .bgCursos {
-    background-color: rgba(247, 237, 252, 0.5294117647);
+    background-color: #727272;
     height: 74vh;
   }
   .info-text {
@@ -520,6 +521,7 @@ input {
   }
   .order {
     display: flex;
+    z-index: 1;
   }
   .secondary {
     color: rgb(139, 139, 141);
